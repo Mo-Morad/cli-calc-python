@@ -1,4 +1,4 @@
-# Triggering CI test
+# Trigger CI from correct location
 from calculator.evaluator import evaluate_expression
 
 def main():
