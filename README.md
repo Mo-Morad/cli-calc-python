@@ -11,7 +11,6 @@ A modern, scientific calculator with a graphical interface built using Python an
 | Mohammed X        | M7MED963               |
 | Member 2 Name     | github_username_2      |
 | Member 3 Name     | github_username_3      |
-| Member 4 Name     | github_username_4      |
 
 ---
 
