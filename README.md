@@ -9,7 +9,7 @@ A modern, scientific calculator with a graphical interface built using Python an
 | Name              | GitHub Username       |
 |-------------------|------------------------|
 | Mohammed X        | M7MED963               |
-| Member 2 Name     | github_username_2      |
+| Mohamad Nour Morad| Mo-Morad      |
 | Member 3 Name     | github_username_3      |
 
 ---
@@ -17,9 +17,8 @@ A modern, scientific calculator with a graphical interface built using Python an
 ## 📜 Declaration
 
 I, Mohammed X, declare that I am the sole author of the content I add to this repository.  
-I, Member 2 Name, declare that I am the sole author of the content I add to this repository.  
+I, Mohamad Nour Morad, declare that I am the sole author of the content I add to this repository.  
 I, Member 3 Name, declare that I am the sole author of the content I add to this repository.  
-I, Member 4 Name, declare that I am the sole author of the content I add to this repository.
 
 ---
 
