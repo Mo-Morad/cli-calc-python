@@ -10,7 +10,7 @@ A modern, scientific calculator with a graphical interface built using Python an
 |-------------------|------------------------|
 | Mohammed X        | M7MED963               |
 | Mohamad Nour Morad| Mo-Morad               |
-| Jamal             | JamalMohsen            |
+| Jamal Mohsen      | JamalMohsen            |
 
 ---
 
