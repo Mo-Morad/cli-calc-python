@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: '3.11'
 
-    
-
-      - name: Check syntax only (no GUI test)
-        run: python -m py_compile src/calculator.py
+      - name: Syntax check for evaluator and main
+        run: |
+          python -m py_compile calculator/evaluator.py
+          python -m py_compile calculator/main.py
