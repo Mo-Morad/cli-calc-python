@@ -8,7 +8,7 @@ A modern, scientific calculator with a graphical interface built using Python an
 
 | Name              | GitHub Username        |
 |-------------------|------------------------|
-| Mohammed X        | M7MED963               |
+| Mohamed Aljbawi   | M7MED963               |
 | Mohamad Nour Morad| Mo-Morad               |
 | Jamal Mohsen      | JamalMohsen            |
 
