@@ -1,4 +1,6 @@
 import tkinter as tk
+# calculator/evaluator.py
+
 import math
 
 def evaluate_expression(expression):
@@ -9,12 +11,13 @@ def evaluate_expression(expression):
     expression = expression.replace("e^", "math.exp")
     expression = expression.replace("π", str(math.pi))
     expression = expression.replace("e", str(math.e))
-    
+
     try:
         result = eval(expression)
         return result
     except Exception:
         return "Error"
+
 
 def click(event):
     button_text = event.widget.cget("text")
