@@ -2,7 +2,9 @@
 
 import math
 
+
 def evaluate_expression(expression):
+
     expression = expression.replace("^", "**")
     expression = expression.replace("√", "math.sqrt")
     expression = expression.replace("log", "math.log10")
