@@ -1,3 +1,5 @@
+![CI](https://github.com/Mo-Morad/cli-calc-python/actions/workflows/python-ci.yml/badge.svg)
+
 # 🧮 Scientific Calculator (Python GUI)
 
 A modern, scientific calculator with a graphical interface built using Python and Tkinter.
