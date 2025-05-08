@@ -77,11 +77,20 @@ We are using Issues + a Kanban board to track all tasks for the project.
 - [x] Calculator GUI created
 - [x] Advanced math features added
 - [x] Screenshot added to README
-- [ ] Unit tests added (optional)
+- [x] Unit tests added
 - [x] README structured with plan
 - [x] Project board and issues created
 
 ---
+
+## 🧪 Running Unit Tests
+
+To run all unit tests:
+
+```bash
+python -m unittest discover -s calculator/tests
+---
+
 
 ## 📄 License
 
