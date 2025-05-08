@@ -1,3 +1,5 @@
+# calculator/gui.py
+
 import tkinter as tk
 from calculator.evaluator import evaluate_expression
 
