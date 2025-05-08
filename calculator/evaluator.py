@@ -9,9 +9,10 @@ def evaluate_expression(expression):
     expression = expression.replace("e^", "math.exp")
     expression = expression.replace("π", str(math.pi))
     expression = expression.replace("e", str(math.e))
-
+    
     try:
-        return str(eval(expression))
+        result = eval(expression)
+        return result
     except Exception:
         return "Error"
 
@@ -20,7 +21,7 @@ def click(event):
     if button_text == "=":
         result = evaluate_expression(entry.get())
         entry.delete(0, tk.END)
-        entry.insert(0, result)
+        entry.insert(0, str(result))  # ✅ convert to string for display
     elif button_text == "C":
         entry.delete(0, tk.END)
     else:
