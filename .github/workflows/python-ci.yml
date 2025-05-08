@@ -25,9 +25,10 @@ jobs:
         pip install coverage flake8
 
     - name: Syntax check
-      run: |
-        python -m py_compile calculator/evaluator.py
-        python -m py_compile calculator/main.py
+  run: |
+    python -m py_compile calculator/evaluator_logic.py
+    python -m py_compile calculator/main.py
+
 
     - name: Run unit tests with coverage
       run: |
