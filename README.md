@@ -88,7 +88,7 @@ We are using Issues + a Kanban board to track all tasks for the project.
 
 ## 🧪 Testing & Quality
 
-To run all unit tests, generate a code coverage report, and check for linting issues, use the following commands:
+To run all unit tests, generate code coverage, and run lint checks:
 
 ```bash
 py -m unittest discover -s calculator/tests
