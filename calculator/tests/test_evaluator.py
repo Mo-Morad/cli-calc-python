@@ -15,3 +15,19 @@ class TestEvaluator(unittest.TestCase):
 
     def test_negative_numbers(self):
         self.assertEqual(evaluate_expression("-5 + 10"), 5)
+        
+    def test_division(self):
+        self.assertEqual(evaluate_expression("10 / 2"), 5)
+
+    def test_large_expression(self):
+        self.assertEqual(evaluate_expression("(2 + 3) * (4 + 1)"), 25)
+
+    def test_invalid_input(self):
+        self.assertEqual(evaluate_expression("2 + "), "Error")
+
+    def test_zero_division(self):
+        self.assertEqual(evaluate_expression("5 / 0"), "Error")
+
+    def test_power(self):
+       self.assertEqual(evaluate_expression("2 ^ 3"), 8)
+
