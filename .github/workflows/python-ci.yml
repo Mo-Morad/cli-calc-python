@@ -36,18 +36,3 @@ jobs:
 
     - name: Run linter
       run: flake8 calculator
-
-
-Save the file.
-
----
-
-#### 🧠 2. Stage, commit, and fix branch
-Run this in your terminal:
-
-```bash
-git add README.md
-git commit -m "Fix: Add testing, coverage, and linter instructions to README"
-git pull origin main --allow-unrelated-histories
-git push origin main
-
