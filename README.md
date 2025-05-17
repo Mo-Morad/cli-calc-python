@@ -86,13 +86,13 @@ We are using Issues + a Kanban board to track all tasks for the project.
 
 ---
 
-## 🧪 Running Unit Tests
+## 🧪 Testing & Quality
 
-To run all unit tests:
+### ✅ Run Unit Tests
 
 ```bash
-python -m unittest discover -s calculator/tests
----
+py -m unittest discover -s calculator/tests
+
 
 
 ## 📄 License
