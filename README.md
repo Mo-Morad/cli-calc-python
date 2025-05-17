@@ -88,13 +88,14 @@ We are using Issues + a Kanban board to track all tasks for the project.
 
 ## 🧪 Testing & Quality
 
-To run all unit tests, generate code coverage, and run lint checks:
+To run unit tests, generate code coverage, and run lint checks:
 
 ```bash
 py -m unittest discover -s calculator/tests
 py -m coverage run -m unittest discover -s calculator/tests
 py -m coverage report -m
 py -m flake8 calculator
+
 
 ## 📄 License
 
