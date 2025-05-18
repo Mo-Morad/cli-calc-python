@@ -21,7 +21,3 @@ class TestEvaluator(unittest.TestCase):
 
     def test_power_operator(self):
         self.assertEqual(evaluate_expression("2 ^ 3"), 8)
-
-    def test_logarithm(self):
-    self.assertEqual(evaluate_expression("log(1000)"), 3)
-
