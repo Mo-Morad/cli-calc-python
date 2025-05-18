@@ -25,7 +25,6 @@ class TestEvaluator(unittest.TestCase):
     def test_square_root(self):
     self.assertEqual(evaluate_expression("√25"), 5)
 
-    def test_square_root(self):
-    self.assertEqual(evaluate_expression("√25"), 5)
-
+    def test_logarithm(self):
+    self.assertEqual(evaluate_expression("log(1000)"), 3)
 
